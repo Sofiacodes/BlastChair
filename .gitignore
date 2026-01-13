@@ -1,0 +1,25 @@
+# Visual Studio 2015/2017/2019/2022
+.vs/
+
+# Generic
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Project files
+.idea/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.xcodeproj
+*.xcworkspace
+
+# Compiled files
+*.dll
+*.pdb
+
+# Unreal Engine
+/Build/
