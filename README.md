@@ -1,24 +1,24 @@
 # BlastChair
 
-A Unreal Engine 5.7 C++ Project.
+一个 Unreal Engine 5.7 C++ 项目。
 
-## How to Run
+## 如何运行
 
-Since this repository ignores large temporary files (Binaries, Intermediate, etc.), you need to regenerate them locally.
+由于本仓库忽略了较大的临时文件（Binaries, Intermediate 等），你需要在本地重新生成它们。
 
-### Prerequisites
-*   **Unreal Engine 5.7** installed.
-*   **Visual Studio 2022** (or compatible IDE) with "Game Development with C++" workload.
+### 前置要求
+*   安装 **Unreal Engine 5.7**。
+*   安装 **Visual Studio 2022**（或兼容的 IDE），并安装了 "使用 C++ 的游戏开发" (Game Development with C++) 工作负载。
 
-### Steps
-1.  **Clone** this repository.
-2.  Right-click on `BlastChair.uproject`.
-3.  Select **Generate Visual Studio project files**.
-4.  Open the generated `BlastChair.sln` solution file.
-5.  Build the project (Ctrl+Shift+B).
-6.  Launch the project from Visual Studio (F5) or double-click `BlastChair.uproject`.
+### 步骤
+1.  **克隆 (Clone)** 本仓库。
+2.  右键点击 `BlastChair.uproject` 文件。
+3.  选择 **Generate Visual Studio project files**（生成 Visual Studio 项目文件）。
+4.  打开生成的 `BlastChair.sln` 解决方案文件。
+5.  编译项目 (Ctrl+Shift+B)。
+6.  从 Visual Studio 启动项目 (F5) 或直接双击 `BlastChair.uproject`。
 
-## Directory Structure
-*   `Source/`: C++ Source code.
-*   `Config/`: Project configuration (Inputs, Engine settings).
-*   `Content/`: Assets (Blueprints, Meshes, etc.).
+## 目录结构
+*   `Source/`: C++ 源代码。
+*   `Config/`: 项目配置（输入、引擎设置等）。
+*   `Content/`: 资产（蓝图、模型等）。
